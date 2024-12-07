@@ -1,0 +1,70 @@
+.container,
+.containerReverse {
+  display: flex;
+  gap: 20px;
+  padding: 71px 75px;
+}
+
+.containerReverse {
+  flex-direction: row-reverse;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subtitle {
+  font: 400 24px "PT Mono";
+  color: var(--color-grey-88, #e0e0e0);
+}
+
+.title {
+  font: 400 36px "PT Mono";
+  color: var(--color-grey-88, #e0e0e0);
+  margin-top: 30px;
+}
+
+.description {
+  font: 400 18px/27px "PT Mono";
+  color: var(--color-grey-88, #e0e0e0);
+  margin-top: 30px;
+}
+
+.cta {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rgba(184, 58, 75, 1);
+  color: var(--color-white-solid, #fff);
+  padding: 10px 30px;
+  text-decoration: none;
+  font: 400 20px "PT Mono";
+  margin-top: 30px;
+  align-self: flex-start;
+}
+
+.image {
+  flex: 1;
+  object-fit: contain;
+  border-radius: 15px;
+  max-width: 45%;
+}
+
+@media (max-width: 991px) {
+  .container,
+  .containerReverse {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .image {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .cta {
+    padding: 0 20px;
+  }
+}
