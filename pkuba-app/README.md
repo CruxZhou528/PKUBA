@@ -7,8 +7,8 @@ pkuba-app 是一个基于 React 的应用程序，旨在构建PKUBA官网。
 
 1. 克隆项目：
    ```bash
-   git clone https://github.com/yourusername/my-app.git
-   cd my-app
+   git clone https://github.com/CruxZhou528/PKUBA.git
+   cd pkuba-app
    ```
 
 2. 安装依赖：
