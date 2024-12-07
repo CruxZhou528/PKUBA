@@ -1,4 +1,4 @@
-# My App
+# PKUBA-APP
 
 ## 项目简介
 pkuba-app 是一个基于 React 的应用程序，旨在构建PKUBA官网。
